@@ -47,7 +47,7 @@ export default function Hero() {
 
         {/* ── Middle row: name-left | buttons-right ── */}
         <div className="flex-1 flex items-center">
-          <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-12
+          <div className="w-full max-w-6xl mx-auto px-6 sm:px-10 lg:px-16
                           flex flex-col sm:flex-row sm:items-end sm:justify-between
                           gap-6 sm:gap-0 pb-8 sm:pb-0">
 
@@ -137,7 +137,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.5 }}
           className="w-full"
         >
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 pb-8 sm:pb-10 lg:pb-14">
+          <div className="max-w-6xl mx-auto w-full px-6 sm:px-10 lg:px-16 pb-8 sm:pb-10 lg:pb-14">
             <div className="flex items-center justify-start sm:justify-center lg:justify-start flex-wrap gap-0">
               {stats.map((stat, i) => (
                 <div key={stat.label} className="flex items-center">

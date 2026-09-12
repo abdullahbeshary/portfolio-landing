@@ -37,7 +37,7 @@ export default function Contact() {
   ]
 
   return (
-    <section id="contact" className="py-24 lg:py-32 px-6 sm:px-8 lg:px-24 relative overflow-hidden">
+    <section id="contact" className="py-24 lg:py-32 px-6 sm:px-10 lg:px-16 relative overflow-hidden">
       <div
         className="absolute left-1/2 -translate-x-1/2 bottom-0 w-[600px] h-80 pointer-events-none"
         style={{
@@ -46,7 +46,7 @@ export default function Contact() {
         }}
       />
 
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-6xl mx-auto w-full">
         {/* Section header */}
         <motion.div
           ref={ref}

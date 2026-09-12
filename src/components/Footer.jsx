@@ -42,10 +42,10 @@ const links = [
 export default function Footer() {
   return (
     <footer
-      className="px-6 sm:px-8 lg:px-24 py-10 sm:py-12"
+      className="px-6 sm:px-10 lg:px-16 py-10 sm:py-12"
       style={{ borderTop: '1px solid rgba(62, 148, 132, 0.12)' }}
     >
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-6xl mx-auto w-full">
         <div className="flex flex-col sm:flex-row items-center sm:items-start justify-between gap-8">
           {/* Logo + tagline */}
           <div className="flex flex-col items-center sm:items-start gap-2">

@@ -218,7 +218,7 @@ export default function Works() {
   const inView = useInView(ref, { once: true, margin: '-80px' })
 
   return (
-    <section id="works" className="py-24 lg:py-32 px-6 sm:px-8 lg:px-24 relative overflow-hidden">
+    <section id="works" className="py-24 lg:py-32 px-6 sm:px-10 lg:px-16 relative overflow-hidden">
       <div
         className="absolute -right-64 top-1/2 -translate-y-1/2 w-[500px] h-[500px] rounded-full pointer-events-none"
         style={{
@@ -227,7 +227,7 @@ export default function Works() {
         }}
       />
 
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-6xl mx-auto w-full">
         {/* Section label — matches reference style */}
         <motion.div
           ref={ref}

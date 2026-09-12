@@ -31,7 +31,7 @@ export default function Navbar() {
       }}
     >
       {/* Same container width / side padding as every section */}
-      <nav className="max-w-6xl mx-auto px-6 sm:px-8 lg:px-24 h-16 sm:h-20 flex items-center justify-between">
+      <nav className="max-w-6xl mx-auto w-full px-6 sm:px-10 lg:px-16 h-16 sm:h-20 flex items-center justify-between">
         {/* Logo */}
         <a href="#" className="flex items-center gap-2.5 group">
           <div
